@@ -6,10 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./main-header.component.css']
 })
 export class MainHeaderComponent implements OnInit {
-
   firstName = 'Sergio';
   lastName = 'Carrillo';
   greeting = 'r1c2';
+
 
   constructor() { }
 
@@ -17,12 +17,11 @@ export class MainHeaderComponent implements OnInit {
   }
 
   showGreeting() {
-    // const row2 = document.getElementById("r1c2");
+    // const row2 = document.getElementById("r1c2")
     this.greeting = 'Hello ' + this.firstName + ' ' + this.lastName + '.';
   }
-
   resetGreeting() {
-    // const row2 = document.getElementById("r1c2");
+    // const row2 = document.getElementById("r1c2")
     this.greeting = 'r1c2';
   }
 

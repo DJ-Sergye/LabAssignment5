@@ -10,8 +10,7 @@ export class AppComponent {
 
   constructor() {
 
+
   }
-
-
 
 }
